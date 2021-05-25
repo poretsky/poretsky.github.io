@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8">
+    {% if page.keywords and page.keywords != empty -%}
+      <meta name="keywords" content="{{ page.keywords }}">
+    {%- endif %}
+    {% if page.description and page.description != empty -%}
+      <meta name="description" content="{{ page.description }}">
+    {%- endif %}
+    <style type="text/css">
+body {
+  background: white; color: black;
+  margin-left: 3%; margin-right: 7%;
+}
+
+p { margin-top: 1% }
+p.verse { margin-left: 3% }
+
+.example { margin-left: 3% }
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+h3 { margin-bottom: 0px; }
+    </style>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
