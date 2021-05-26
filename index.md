@@ -9,6 +9,6 @@ keywords: accessibility,visually impaired,Linux,Android
 [Russian version of this page](index-ru.md)
 
 - [Accessibility packages for various Linux distributions](http://poretsky.homelinux.net/packages/index-en.html)
-- [Accessibility related software for Android](http://poretsky.homelinux.net/android/index-en.html)
+- [Accessibility related software for Android](android/index.md)
 - [Unofficial Rockbox builds](http://poretsky.homelinux.net/rockbox/index-en.html)
   with accessibility improvements and some other additions and fixes
