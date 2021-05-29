@@ -1,0 +1,106 @@
+version: 3.15p10
+
+builds:
+  - id: ipodmini2g
+    title: Apple iPod Mini 2G
+    has_doc: true
+
+  - id: ipod6g
+    title: Apple iPod Classic/6G
+    has_doc: true
+
+  - id: iaudiox5
+    title: Cowon iAudio X5
+    has_doc: true
+
+  - id: cowond2
+    title: Cowon D2
+    has_doc: true
+
+  - id: sansac200
+    title: Sansa C200
+    has_doc: true
+
+  - id: sansae200
+    title: Sansa E200
+    has_doc: true
+
+  - id: sansafuze
+    title: Sansa Fuze
+    has_doc: true
+
+  - id: sansafuzev2
+    title: Sansa Fuze v2
+    has_doc: true
+
+  - id: sansafuzeplus
+    title: Sansa Fuze+
+    has_doc: true
+
+  - id: sansaclip
+    title: Sansa Clip
+    has_doc: true
+
+  - id: sansaclipv2
+    title: Sansa Clip v2
+    has_doc: true
+
+  - id: sansaclipplus
+    title: Sansa Clip+
+    has_doc: true
+
+  - id: sansaclipzip
+    title: Sansa Clip Zip
+    has_doc: true
+
+  - id: iriverh100
+    title: iRiver H120/H140
+    has_doc: true
+
+  - id: iriverh300
+    title: iRiver H320/H340
+    has_doc: true
+
+  - id: creativezen
+    title: Creative Zen
+    has_doc: false
+
+  - id: creativezenmozaic
+    title: Creative Zen X-Mozaic
+    has_doc: false
+
+  - id: sonynwze370
+    title: Sony NWZ-E370/E380
+    has_doc: false
+
+  - id: sonynwze460
+    title: Sony NWZ-E460
+    has_doc: false
+
+  - id: sonynwze580
+    title: Sony NWZ-E580
+    has_doc: false
+
+  - id: hifimanhm60x
+    title: HiFiMAN HM-60x
+    has_doc: false
+
+  - id: ihifi760
+    title: IHIFI 760
+    has_doc: false
+
+  - id: xduoox3
+    title: xDuoo X3
+    has_doc: true
+
+  - id: xduoox3ii
+    title: xDuoo X3II
+    has_doc: false
+
+  - id: xduoox20
+    title: xDuoo X20
+    has_doc: false
+
+  - id: agptekrocker
+    title: AgpTek Rocker
+    has_doc: false
