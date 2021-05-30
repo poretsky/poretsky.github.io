@@ -121,7 +121,7 @@ program is used that was generated from the Rockbox sources.
 
 On **Debian** and **Ubuntu** all necessary speech synthesizers can be
 installed from
-[my repository](http://poretsky.homelinux.net/packages/)
+[my repository](../packages/index.md)
 by command:
 
 ```bash

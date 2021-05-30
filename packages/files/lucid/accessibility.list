@@ -1,0 +1,3 @@
+# Accessibility packages
+deb https://poretsky.github.io/packages/repo/ lucid free non-free
+deb-src https://poretsky.github.io/packages/repo/ lucid free non-free

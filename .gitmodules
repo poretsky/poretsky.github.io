@@ -1,0 +1,3 @@
+[submodule "packages/repo"]
+	path = packages/repo
+	url = https://github.com/poretsky/ppa.git
