@@ -1,4 +1,5 @@
 version: 3.15p10
+release_date: 2020-12-27
 
 builds:
   - id: ipodmini2g

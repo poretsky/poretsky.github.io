@@ -26,6 +26,8 @@ language: ru
 
 ## Сборки Rockbox {#anchor1}
 
+Дата выхода в свет: **{{ site.data.rockbox.release_date }}**.
+
 Все сборки построены на базе среза
 [генеральной линии разработки](http://git.rockbox.org/)
 (ветка master) и включают в себя еще целый ряд
@@ -171,5 +173,3 @@ $ sudo aptitude install mbrola mbrola-en1 freephone enlex ru-tts rulex=
 С вопросами и предложениями ко мне можно обращаться по электронной почте.
 
 {% include feedback.html name="Порецкий Игорь Борисович" %}
-
-Последнее обновление {{ site.time }}

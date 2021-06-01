@@ -5,7 +5,8 @@ keywords: multilingual speech synthesizer,automatic TTS language switch,Android,
 language: en
 ---
 
-**Current version: {{ site.data.smartvoice.version }}**
+Current version: **{{ site.data.smartvoice.version }}**.  
+Release date: **{{ site.data.smartvoice.release_date }}**.
 
 The most prominent feature of this synthesizer is its capability to
 distinguish and switch language automatically according to the nature
