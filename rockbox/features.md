@@ -2,8 +2,6 @@
 title: Some additional Rockbox features explanation
 ---
 
-# {{ page.title }}
-
 [Russian version of this page](features-ru.md)
 
 ## Speech feedback

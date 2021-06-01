@@ -2,8 +2,6 @@
 title: Дополнительные настройки Emacs
 ---
 
-# {{ page.title }}
-
 [This page in English](emacs-settings.md)
 
 Файл

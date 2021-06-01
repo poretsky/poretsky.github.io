@@ -2,8 +2,6 @@
 title: Additional Emacs settings
 ---
 
-# {{ page.title }}
-
 [This page in Russian](emacs-settings-ru.md)
 
 The following options are set up globally in

@@ -4,8 +4,6 @@ description: Unofficial Rockbox builds with accessibility enhancements and fixes
 keywords: accessibility,Rockbox,audio player,alternative firmware
 ---
 
-# {{ page.title }}
-
 [Russian version of this page](index-ru.md)
 
 [Summary of changes against the official versions](summary.md)

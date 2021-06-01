@@ -4,8 +4,6 @@ description: Package repositories for Debian and Ubuntu containing accessibility
 keywords: accessibility,multilingual speech server,Multispeech,Emacspeak,Ubuntu,Debian
 ---
 
-# {{ page.title }}
-
 [This page in Russian](index-ru.md)
 
 These repositories contain complete set of packages to make up ready

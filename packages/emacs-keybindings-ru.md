@@ -2,8 +2,6 @@
 title: Дополнительные клавиатурные комбинации Emacs
 ---
 
-# {{ page.title }}
-
 [This page in English](emacs-keybindings.md)
 
 В файле

@@ -4,8 +4,6 @@ description: Accessibility related software to meet special needs of visually im
 keywords: accessibility,visually impaired,Linux,Android
 ---
 
-# {{ page.title }}
-
 [Russian version of this page](index-ru.md)
 
 - [Accessibility packages for various Linux distributions](packages/index.md)

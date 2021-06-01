@@ -4,8 +4,6 @@ description: An alternative version of navigation application OsmAnd with enhanc
 keywords: navigation application OsmAnd,non-visual access,Android,accessibility
 ---
 
-# {{ page.title }}
-
 [This page in Russian](index-ru.md)
 
 * TOC

@@ -2,8 +2,6 @@
 title: Список наложенных заплаток
 ---
 
-# {{ page.title }}
-
 [English version of this page](patches.md)
 
 {% assign tracker="http://www.rockbox.org/tracker" %}

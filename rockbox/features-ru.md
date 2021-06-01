@@ -2,8 +2,6 @@
 title: Описание некоторых дополнительных функций
 ---
 
-# {{ page.title }}
-
 [English version of this page](features.md)
 
 ## Речевой отклик

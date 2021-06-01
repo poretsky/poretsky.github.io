@@ -4,8 +4,6 @@ description: Многоязычный речевой синтезатор для
 keywords: многоязычный речевой синтезатор,автоматическое переключение языка синтеза,Android
 ---
 
-# {{ page.title }}
-
 [This page in English](index.md)
 
 **Текущая версия: {{ site.data.smartvoice.version }}**

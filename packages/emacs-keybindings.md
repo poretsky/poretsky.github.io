@@ -2,8 +2,6 @@
 title: Additional Emacs key bindings
 ---
 
-# {{ page.title }}
-
 [This page in Russian](emacs-keybindings-ru.md)
 
 The following global key bindings are defined in

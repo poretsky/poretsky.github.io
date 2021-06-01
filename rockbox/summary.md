@@ -2,8 +2,6 @@
 title: Summary of the Rockbox enhancements against an official version
 ---
 
-# {{ page.title }}
-
 [Russian version of this page](summary-ru.md)
 
 The following fixes and improvements are implemented in this

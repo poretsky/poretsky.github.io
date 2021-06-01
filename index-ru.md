@@ -4,8 +4,6 @@ description: Программные средства и материалы в п
 keywords: невизуальный доступ,программные средства,Linux,Android
 ---
 
-# {{ page.title }}
-
 [English version of this page](index.md)
 
 Этот сайт посвящен проблемам невизуальной доступности технических

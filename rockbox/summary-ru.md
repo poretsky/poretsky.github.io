@@ -2,8 +2,6 @@
 title: Основные отличия от официальной версии Rockbox
 ---
 
-# {{ page.title }}
-
 [English version of this page](summary.md)
 
 Вкратце, доработки, отличающие

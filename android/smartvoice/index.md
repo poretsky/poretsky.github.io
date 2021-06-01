@@ -4,8 +4,6 @@ description: Multilingual speech synthesizer for Android with automatic language
 keywords: multilingual speech synthesizer,automatic TTS language switch,Android,accessibility
 ---
 
-# {{ page.title }}
-
 [This page in Russian](index-ru.md)
 
 **Current version: {{ site.data.smartvoice.version }}**

@@ -4,8 +4,6 @@ description: Репозитории пакетов для Debian и Ubuntu, по
 keywords: невизуальный доступ,многоязычный речевой сервер,Multispeech,Emacspeak,Ubuntu,Debian
 ---
 
-# {{ page.title }}
-
 [This page in English](index.md)
 
 Расположенные здесь репозитории содержат полный набор пакетов для

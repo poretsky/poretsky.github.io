@@ -2,8 +2,6 @@
 title: Rockbox patches
 ---
 
-# {{ page.title }}
-
 [Russian version of this page](patches-ru.md)
 
 {% assign tracker="http://www.rockbox.org/tracker" %}
