@@ -2,9 +2,8 @@
 title: SmartVoice
 description: Multilingual speech synthesizer for Android with automatic language recognition and switching facility.
 keywords: multilingual speech synthesizer,automatic TTS language switch,Android,accessibility
+language: en
 ---
-
-[This page in Russian](index-ru.md)
 
 **Current version: {{ site.data.smartvoice.version }}**
 

@@ -1,8 +1,7 @@
 ---
 title: Дополнительные настройки Emacs
+language: ru
 ---
-
-[This page in English](emacs-settings.md)
 
 Файл
 [/etc/emacs/site-start.d/80site-defaults.el](files/80site-defaults.el)

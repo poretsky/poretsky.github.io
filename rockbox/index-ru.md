@@ -2,9 +2,8 @@
 title: Неофициальные сборки Rockbox
 description: Неофициальные сборки Rockbox с улучшенными возможностями невизуального доступа.
 keywords: невизуальный доступ,Rockbox,аудио-плеер,альтернативные прошивки
+language: ru
 ---
-
-[English version of this page](index.md)
 
 [Основные отличия от официальных версий](summary-ru.md)
 [Описание некоторых дополнительных функций](features-ru.md)

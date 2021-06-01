@@ -1,8 +1,7 @@
 ---
 title: Some additional Rockbox features explanation
+language: en
 ---
-
-[Russian version of this page](features-ru.md)
 
 ## Speech feedback
 

@@ -2,9 +2,8 @@
 title: SmartVoice
 description: Многоязычный речевой синтезатор для Android с возможностью автоматического распознавания и переключения языка синтеза.
 keywords: многоязычный речевой синтезатор,автоматическое переключение языка синтеза,Android
+language: ru
 ---
-
-[This page in English](index.md)
 
 **Текущая версия: {{ site.data.smartvoice.version }}**
 

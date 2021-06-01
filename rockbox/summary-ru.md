@@ -1,8 +1,7 @@
 ---
 title: Основные отличия от официальной версии Rockbox
+language: ru
 ---
-
-[English version of this page](summary.md)
 
 Вкратце, доработки, отличающие
 [данные сборки](index-ru.md#anchor1) от официальной версии

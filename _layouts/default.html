@@ -11,6 +11,12 @@
     {% if page.description and page.description != empty -%}
       <meta name="description" content="{{ page.description }}">
     {%- endif %}
+    {% case page.language -%}
+      {%- when "en" -%}
+        <link rel="alternate" hreflang="ru" href="{{ page.name | replace: ".md", "-ru.html" }}" />
+      {%- when "ru" -%}
+        <link rel="alternate" hreflang="en" href="{{ page.name | replace: "-ru.md", ".html" }}" />
+    {%- endcase %}
     <style type="text/css">
 body {
   background: white; color: black;
@@ -31,6 +37,14 @@ h3 { margin-bottom: 0px; }
   </head>
   <body>
     <h1>{{ page.title }}</h1>
+
+    {% case page.language -%}
+      {%- when "en" -%}
+        <p><a href="{{ page.name | replace: ".md", "-ru.html" }}">Перейти на русский</a></p>
+      {%- when "ru" -%}
+        <p><a href="{{ page.name | replace: "-ru.md", ".html" }}">Switch to English</a></p>
+    {%- endcase %}
+
     {{ content }}
   </body>
 </html>

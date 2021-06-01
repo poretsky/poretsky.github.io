@@ -1,8 +1,7 @@
 ---
 title: Summary of the Rockbox enhancements against an official version
+language: en
 ---
-
-[Russian version of this page](summary-ru.md)
 
 The following fixes and improvements are implemented in this
 [Rockbox builds](index.md#anchor1)

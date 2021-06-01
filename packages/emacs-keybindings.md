@@ -1,8 +1,7 @@
 ---
 title: Additional Emacs key bindings
+language: en
 ---
-
-[This page in Russian](emacs-keybindings-ru.md)
 
 The following global key bindings are defined in
 [/etc/emacs/site-start.d/80keybindings.el](files/80keybindings.el):

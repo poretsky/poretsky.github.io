@@ -1,8 +1,7 @@
 ---
 title: Список наложенных заплаток
+language: ru
 ---
-
-[English version of this page](patches.md)
 
 {% assign tracker="http://www.rockbox.org/tracker" %}
 

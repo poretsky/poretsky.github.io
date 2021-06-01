@@ -1,8 +1,7 @@
 ---
 title: Rockbox patches
+language: en
 ---
-
-[Russian version of this page](patches-ru.md)
 
 {% assign tracker="http://www.rockbox.org/tracker" %}
 

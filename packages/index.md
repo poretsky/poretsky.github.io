@@ -2,9 +2,8 @@
 title: Accessibility packages for Emacspeak environment
 description: Package repositories for Debian and Ubuntu containing accessibility related software, such as enhanced and fixed version of Emacspeak, multilingual speech server, speech synthesizers and others.
 keywords: accessibility,multilingual speech server,Multispeech,Emacspeak,Ubuntu,Debian
+language: en
 ---
-
-[This page in Russian](index-ru.md)
 
 These repositories contain complete set of packages to make up ready
 to use [Emacspeak](https://github.com/tvraman/emacspeak) environment

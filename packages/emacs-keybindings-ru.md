@@ -1,8 +1,7 @@
 ---
 title: Дополнительные клавиатурные комбинации Emacs
+language: ru
 ---
-
-[This page in English](emacs-keybindings.md)
 
 В файле
 [/etc/emacs/site-start.d/80keybindings.el](files/80keybindings.el)

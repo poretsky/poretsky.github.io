@@ -1,8 +1,7 @@
 ---
 title: Additional Emacs settings
+language: en
 ---
-
-[This page in Russian](emacs-settings-ru.md)
 
 The following options are set up globally in
 [/etc/emacs/site-start.d/80site-defaults.el](files/80site-defaults.el):

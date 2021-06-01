@@ -2,9 +2,8 @@
 title: Вариант навигационного приложения OsmAnd для незрячих
 description: Альтернативная версия навигационного приложения OsmAnd с расширенными функциями невизуального доступа.
 keywords: навигационное приложение OsmAnd,невизуальный доступ,Android
+language: ru
 ---
-
-[This page in English](index.md)
 
 * TOC
 {:toc}

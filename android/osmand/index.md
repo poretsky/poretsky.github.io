@@ -2,9 +2,8 @@
 title: Version of navigation application OsmAnd for blind users
 description: An alternative version of navigation application OsmAnd with enhanced accessibility features for visually impaired and blind users.
 keywords: navigation application OsmAnd,non-visual access,Android,accessibility
+language: en
 ---
-
-[This page in Russian](index-ru.md)
 
 * TOC
 {:toc}
