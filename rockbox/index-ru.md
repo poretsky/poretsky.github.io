@@ -172,4 +172,4 @@ $ sudo aptitude install mbrola mbrola-en1 freephone enlex ru-tts rulex=
 
 С вопросами и предложениями ко мне можно обращаться по электронной почте.
 
-{% include feedback.html name="Порецкий Игорь Борисович" %}
+{% include feedback.html name=site.data.author.name.ru %}

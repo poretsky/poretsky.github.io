@@ -162,4 +162,4 @@ To make use of these presets grab the archive and unpack it into
 
 Feel free to e-mail me with all related questions and suggestions.
 
-{% include feedback.html name="Igor B. Poretsky" %}
+{% include feedback.html name=site.data.author.name.en %}
