@@ -19,6 +19,10 @@
       {%- when "ru" -%}
         <link rel="alternate" hreflang="en" href="{{ page.name | replace: "-ru.md", ".html" }}" />
     {%- endcase %}
+    {% if page.rss and page.rss != empty -%}
+      <link rel="alternate" type="application/atom+xml" title="Atom feed" href="{{ page.dir | append: page.rss | absolute_url }}" />
+    {%- endif %}
+
     <style type="text/css">
 body {
   background: white; color: black;
@@ -42,9 +46,21 @@ h3 { margin-bottom: 0px; }
 
     {% case page.language -%}
       {%- when "en" -%}
-        <p><a href="{{ page.name | replace: ".md", "-ru.html" }}">Перейти на русский</a></p>
+        <p><a href="{{ page.name | replace: ".md", "-ru.html" }}">Перейти на русский</a>
+        {% if page.rss and page.rss != empty -%}
+          <a href="{{ page.rss }}">RSS</a>
+        {%- endif -%}
+        </p>
       {%- when "ru" -%}
-        <p><a href="{{ page.name | replace: "-ru.md", ".html" }}">Switch to English</a></p>
+        <p><a href="{{ page.name | replace: "-ru.md", ".html" }}">Switch to English</a>
+        {% if page.rss and page.rss != empty -%}
+          <a href="{{ page.rss }}">RSS</a>
+        {%- endif -%}
+        </p>
+      {% else %}
+        {% if page.rss and page.rss != empty -%}
+          <p><a href="{{ page.rss }}">RSS</a></p>
+        {%- endif %}
     {%- endcase %}
 
     {{ content }}

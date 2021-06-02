@@ -1,0 +1,26 @@
+---
+layout: none
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xml:lang="ru">
+  <id>{{ page.url | absolute_url }}</id>
+  <title type="text">Обновления синтезатора речи SmartVoice</title>
+  <category term="updates" label="Обновления программ" />
+  <updated>{{ site.data.smartvoice.release_date }}T07:00:00Z</updated>
+  <link rel="alternate" type="text/html" hreflang="ru" href="{{ site.url | append: page.dir }}index-ru.html" />
+  <link rel="self" type="application/atom+xml" hreflang="ru" href="{{ page.url | absolute_url }}" />
+  <author>
+    <name>{{ site.data.author.name.ru }}</name>
+  </author>
+
+  <entry xml:lang="ru">
+    <id>{{ site.url | append: page.dir | append: site.data.smartvoice.version }}/index-ru.html</id>
+    <title type="text">Новая версия синтезатора речи SmartVoice</title>
+    <updated>{{ site.data.smartvoice.release_date }}T07:00:00Z</updated>
+    <link rel="alternate" type="text/html" hreflang="ru" href="{{ site.url | append: page.dir }}index-ru.html" />
+    <summary type="text">Выпущен синтезатор речи SmartVoice версии {{ site.data.smartvoice.version }}.</summary>
+  </entry>
+
+</feed>

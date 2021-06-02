@@ -1,0 +1,26 @@
+---
+layout: none
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xml:lang="en">
+  <id>{{ page.url | absolute_url }}</id>
+  <title type="text">Rockbox builds release notifications</title>
+  <category term="updates" label="Software updates" />
+  <updated>{{ site.data.rockbox.release_date }}T07:00:00Z</updated>
+  <link rel="alternate" type="text/html" hreflang="en" href="{{ site.url | append: page.dir }}index.html" />
+  <link rel="self" type="application/atom+xml" hreflang="en" href="{{ page.url | absolute_url }}" />
+  <author>
+    <name>{{ site.data.author.name.en }}</name>
+  </author>
+
+  <entry xml:lang="en">
+    <id>{{ site.url | append: page.dir | append: site.data.rockbox.version }}/index.html</id>
+    <title type="text">New version of Rockbox builds is available</title>
+    <updated>{{ site.data.rockbox.release_date }}T07:00:00Z</updated>
+    <link rel="alternate" type="text/html" hreflang="en" href="{{ site.url | append: page.dir }}index.html" />
+    <summary type="text">Rockbox builds {{ site.data.rockbox.version }} just have been released.</summary>
+  </entry>
+
+</feed>
