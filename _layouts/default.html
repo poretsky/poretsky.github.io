@@ -11,6 +11,8 @@
     {% if page.description and page.description != empty -%}
       <meta name="description" content="{{ page.description }}">
     {%- endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="{{ site.url | append: page.url }}" />
     {% case page.language -%}
       {%- when "en" -%}
         <link rel="alternate" hreflang="ru" href="{{ page.name | replace: ".md", "-ru.html" }}" />
