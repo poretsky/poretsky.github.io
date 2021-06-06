@@ -7,4 +7,4 @@ language: ru
 
 - [Многоязычный речевой синтезатор с возможностью автоматического переключения языка](smartvoice/index-ru.md)
 - [Альтернативная версия навигационного приложения OsmAnd для пользователей с визуальными ограничениями](osmand/index-ru.md)
-- [Технические аспекты обеспечения невизуальной доступности Android-приложений](http://poretsky.homelinux.net/android/AndroidAppAccessibility.html)
+- [Технические аспекты обеспечения невизуальной доступности Android-приложений](AndroidAppAccessibility.md)
