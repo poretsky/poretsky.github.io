@@ -3,3 +3,6 @@ kramdown:
   toc_levels: 2..6
 
 theme: jekyll-theme-leap-day
+
+plugins:
+  - jekyll-sitemap
