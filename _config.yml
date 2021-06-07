@@ -1,3 +1,5 @@
 kramdown:
   transliterated_header_ids: true
   toc_levels: 2..6
+
+theme: jekyll-theme-leap-day

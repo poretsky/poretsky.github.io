@@ -10,6 +10,6 @@ language: ru
 
 - [Пакеты для некоторых дистрибутивов Linux](packages/index-ru.md)
 - [Невизуальная доступность в Android](android/index-ru.md)
-- [Неофициальные сборки Rockbox](rockbox/index-ru.md)
+- [Неофициальные сборки Rockbox](rockbox/index-ru.md)  
   с различными улучшениями и дополнениями, касающимися невизуальной
   доступности и не только.

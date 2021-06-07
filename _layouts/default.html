@@ -1,68 +1,58 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!doctype html>
+<html lang="{{ page.language | default: "ru" }}">
   <head>
-    <title>{{ page.title }}</title>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type"
           content="text/html; charset=utf-8">
-    {% if page.keywords and page.keywords != empty -%}
-      <meta name="keywords" content="{{ page.keywords }}">
-    {%- endif %}
-    {% if page.description and page.description != empty -%}
-      <meta name="description" content="{{ page.description }}">
-    {%- endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="{{ site.url | append: page.url }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+{% seo %}
+
     {% case page.language -%}
       {%- when "en" -%}
-        <link rel="alternate" hreflang="ru" href="{{ page.name | replace: ".md", "-ru.html" }}" />
+        <link rel="alternate" hreflang="ru" href="{{ page.name | replace: ".md", "-ru.html" }}">
       {%- when "ru" -%}
-        <link rel="alternate" hreflang="en" href="{{ page.name | replace: "-ru.md", ".html" }}" />
+        <link rel="alternate" hreflang="en" href="{{ page.name | replace: "-ru.md", ".html" }}">
     {%- endcase %}
     {% if page.rss and page.rss != empty -%}
-      <link rel="alternate" type="application/atom+xml" title="Atom feed" href="{{ page.dir | append: page.rss | absolute_url }}" />
+      <link rel="alternate" type="application/atom+xml" title="Atom feed" href="{{ page.dir | append: page.rss | absolute_url }}">
     {%- endif %}
 
-    <style type="text/css">
-body {
-  background: white; color: black;
-  margin-left: 3%; margin-right: 7%;
-}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    <![endif]-->
 
-p { margin-top: 1% }
-p.verse { margin-left: 3% }
-
-.example { margin-left: 3% }
-
-h2 {
-  margin-top: 25px;
-  margin-bottom: 0px;
-}
-h3 { margin-bottom: 0px; }
-    </style>
   </head>
   <body>
-    <h1>{{ page.title }}</h1>
+    <header>
+      <h1>{{ page.title }}</h1>
 
-    {% case page.language -%}
-      {%- when "en" -%}
-        <p><a href="{{ page.name | replace: ".md", "-ru.html" }}">Перейти на русский</a>
-        {% if page.rss and page.rss != empty -%}
-          <a href="{{ page.rss }}">RSS</a>
-        {%- endif -%}
-        </p>
-      {%- when "ru" -%}
-        <p><a href="{{ page.name | replace: "-ru.md", ".html" }}">Switch to English</a>
-        {% if page.rss and page.rss != empty -%}
-          <a href="{{ page.rss }}">RSS</a>
-        {%- endif -%}
-        </p>
-      {% else %}
-        {% if page.rss and page.rss != empty -%}
-          <p><a href="{{ page.rss }}">RSS</a></p>
-        {%- endif %}
-    {%- endcase %}
+      {% capture front_panel -%}
+      {% case page.language -%}
+        {%- when "en" -%}
+          <a class="button" href="{{ page.name | replace: ".md", "-ru.html" }}"><strong>Перейти на русский</strong></a>
+        {%- when "ru" -%}
+          <a class="button" href="{{ page.name | replace: "-ru.md", ".html" }}"><strong>Switch to English</strong></a>
+      {%- endcase %}
+      {% if page.rss and page.rss != empty -%}
+        <a class="button" target="_blank" href="{{ page.rss }}">RSS</a>
+      {%- endif -%}
+      {%- endcapture -%}
+      {% if front_panel contains "href" -%}
+        <div class="front-panel">
+          {{ front_panel }}
+        </div>
+      {%- endif %}
+    </header>
 
-    {{ content }}
+    <div class="wrapper">
+      <section>
+        {{ content }}
+      </section>
+    </div>
   </body>
 </html>
