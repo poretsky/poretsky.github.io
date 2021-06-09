@@ -1,6 +1,7 @@
 ---
 title: Дополнительные настройки Emacs
 language: ru
+locale: ru_RU
 ---
 
 Файл

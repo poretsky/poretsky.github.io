@@ -1,6 +1,7 @@
 ---
 title: Список наложенных заплаток
 language: ru
+locale: ru_RU
 ---
 
 {% assign tracker="http://www.rockbox.org/tracker" %}

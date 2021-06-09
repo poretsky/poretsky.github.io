@@ -1,6 +1,7 @@
 ---
 title: Дополнительные клавиатурные комбинации Emacs
 language: ru
+locale: ru_RU
 ---
 
 В файле
