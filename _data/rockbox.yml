@@ -1,5 +1,5 @@
-version: 3.15p10
-release_date: 2020-12-27
+version: 3.15p11
+release_date: 2021-08-31
 
 builds:
   - id: ipodmini2g
@@ -104,4 +104,4 @@ builds:
 
   - id: agptekrocker
     title: AgpTek Rocker
-    has_doc: false
+    has_doc: true

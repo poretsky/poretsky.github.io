@@ -46,7 +46,6 @@ Following changes are made in addition by my own patches:
 - Proper shortcut actions assignment for files and folders;
 - Increased buffer size for file path;
 - Decreased overall stack consumption;
-- Support of ASF files with MP3 audiostream;
 - Corrected run time prediction for the AMSv2 devices;
 - Prevented sound cut-off on the audio init stage;
 - Fixed FM tuner mode setting in the outer context menu;
