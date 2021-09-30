@@ -60,7 +60,8 @@ Following changes are made in addition by my own patches:
 - Don't reload directory if it is actually not changed;
 - Separate option for list edges beep control;
 - Proper browsing restrictions when choosing a plugin for WPS
-  context.
+  context;
+- Properties voice feedback improvement.
 
 Full sources are available
 [here](https://github.com/poretsky/rockbox/tree/r{{ site.data.rockbox.version }}).
