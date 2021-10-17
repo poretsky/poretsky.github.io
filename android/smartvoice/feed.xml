@@ -19,7 +19,7 @@ layout: none
     <id>{{ site.url | append: page.dir | append: site.data.smartvoice.version }}/index.html</id>
     <title type="text">New version of SmartVoice speech synthesizer is available</title>
     <updated>{{ site.data.smartvoice.release_date }}T07:00:00Z</updated>
-    <link rel="alternate" type="text/html" hreflang="en" href="{{ site.url | append: page.dir }}index.html" />
+    <link rel="alternate" type="text/html" hreflang="en" href="{{ site.url | append: page.dir }}releasenotes.html" />
     <summary type="text">SmartVoice speech synthesizer {{ site.data.smartvoice.version }} just have been released.</summary>
   </entry>
 

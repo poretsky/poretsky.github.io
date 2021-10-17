@@ -6,7 +6,7 @@ language: en
 rss: feed.xml
 ---
 
-Current version: **{{ site.data.smartvoice.version }}**.  
+[Current version](releasenotes.md): **{{ site.data.smartvoice.version }}**.  
 Release date: **{{ site.data.smartvoice.release_date }}**.
 
 The most prominent feature of this synthesizer is its capability to
@@ -35,11 +35,14 @@ effect it prevents system from unloading speech synthesizer when it is
 not used during a fairly long time or in case of resource deficiency.
 
 Application interface is available in English, Italian, Spanish,
-Croatian, Polish, Hebrew, Russian and Ukrainian.
+German, Croatian, Polish, Hebrew, Russian and Ukrainian.
 
-By the way, I'd like to thank **Adi Kushnir** for Hebrew,
-**Zvonimir Stanecic** for Croatian and Polish, and **Vladimir Pyrig**
-for Ukrainian translations.
+By the way, I'd like to thank translators:
+
+- **Adi Kushnir** for Hebrew,
+- **Zvonimir Stanecic** for Croatian and Polish,
+- **Vladimir Pyrig** for Ukrainian,
+- **Alexy Voronov** for German.
 
 For the most part this product is intended for the visually impaired
 people who are forced to use speech feedback as a primary
