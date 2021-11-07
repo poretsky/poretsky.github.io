@@ -35,14 +35,16 @@ effect it prevents system from unloading speech synthesizer when it is
 not used during a fairly long time or in case of resource deficiency.
 
 Application interface is available in English, Italian, Spanish,
-German, Croatian, Polish, Hebrew, Russian and Ukrainian.
+Portuguese (Brazilian and European variants), German, Croatian,
+Polish, Hebrew, Russian and Ukrainian.
 
 By the way, I'd like to thank translators:
 
 - **Adi Kushnir** for Hebrew,
 - **Zvonimir Stanecic** for Croatian and Polish,
 - **Vladimir Pyrig** for Ukrainian,
-- **Alexy Voronov** for German.
+- **Alexy Voronov** for German,
+- **Wendrill Aksenow Brandão** and **Michel Henrique** for Portuguese.
 
 For the most part this product is intended for the visually impaired
 people who are forced to use speech feedback as a primary
@@ -57,7 +59,7 @@ At the contrary, SmartVoice can speak just after installation with no
 additional steps, because it has its own embedded voices, though
 only English (American and British accents), German, Spanish, French,
 Italian and Russian for the moment. For other languages SmartVoice can
-use **Vocalizer Expressive** voices from
+use **Vocalizer Expressive v2** voices from
 [Nuance Communications, Inc.](http://www.nuance.com/),
 but it is not supported or even approved in any way by this company and,
 of course, _does not include_ these voices itself. I suggest that the
