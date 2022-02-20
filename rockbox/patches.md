@@ -22,7 +22,6 @@ Following patches are taken from the
   see [here](features.md#anchor3) for additional explanations;
 - [FS#10698]({{ tracker }}/task/10698) -- Playback control in hold
   mode for Cowon D2;
-- [FS#9114]({{ tracker }}/task/9114) -- Pause Between Tracks [^2];
 - [FS#12074]({{ tracker }}/task/12074) -- Add setting to
   enable/disable lineout on Sansa Fuze V2 [^5];
 - [FS#12779]({{ tracker }}/task/12779) -- This patch reworks the sleep
@@ -32,6 +31,7 @@ Following patches are taken from the
 
 Following changes are made in addition by my own patches:
 
+- General fixes of string resources;
 - Complete Russian translations;
 - Shrinked viewers list suggested for a selected file in context
   menu just as in
@@ -49,7 +49,6 @@ Following changes are made in addition by my own patches:
 - Corrected run time prediction for the AMSv2 devices;
 - Prevented sound cut-off on the audio init stage;
 - Fixed FM tuner mode setting in the outer context menu;
-- Swapped actions for vertical arrows in quickscreen;
 - More general pronunciation style for numeric values to fit various
   languages;
 - Files and directories sorting enhancement;
@@ -61,6 +60,7 @@ Following changes are made in addition by my own patches:
 - Separate option for list edges beep control;
 - Proper browsing restrictions when choosing a plugin for WPS
   context;
+- Transliterated Russian name in credits;
 - Properties voice feedback improvement.
 
 Full sources are available

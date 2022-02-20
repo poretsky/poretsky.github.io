@@ -16,7 +16,6 @@ against their official counterparts:
 - Saving pitch and speed settings on playback stop and restore them
   on resume.
 - [Using talk clips for radio station names](features.md#anchor3).
-- Pause between tracks.
 - Added setting to enable/disable lineout on **Sansa Fuze V2**.
 - Adjustable delay before button repeat is implemented.
 - Sleep timer now pauses playback instead of shutting down player.
@@ -27,10 +26,6 @@ against their official counterparts:
   is assigned to it rather than merely pointing file browser:
   - a folder is entered;
   - a file is executed according to it's type.
-- implemented support of ASF files with MP3 audiostream.
-- For those targets that allow to choose sampling frequency
-  implemented automatic switch facility according to the playing file
-  properties.
 - more general pronunciation style for numeric values that better
   fits various languages.
 - Added an option in the files view settings that allows to choose

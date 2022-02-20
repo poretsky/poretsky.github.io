@@ -1,5 +1,5 @@
-version: 3.15p12
-release_date: 2021-09-30
+version: 3.15p13
+release_date: 2022-02-20
 
 builds:
   - id: ipodmini2g
