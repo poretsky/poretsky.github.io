@@ -71,7 +71,7 @@ this repository. For example, you can install and update them by
 Thus, to fire up the environment initially do the following:
 
 ```bash
-$ sudo apt-get install multispeech mbrola mbrola-en1 freephone enlex ru-tts rulex emacspeak
+$ sudo apt-get install multispeech mbrola mbrola-en1 freephone ru-tts emacspeak
 ```
 
 Of course, Emacs is assumed to be installed already or it will be

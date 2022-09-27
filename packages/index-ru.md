@@ -77,7 +77,7 @@ $ sudo apt-get update
 Основной комплект устанавливается командой:
 
 ```bash
-$ sudo apt-get install multispeech mbrola mbrola-en1 freephone enlex ru-tts rulex emacspeak
+$ sudo apt-get install multispeech mbrola mbrola-en1 freephone ru-tts emacspeak
 ```
 
 Предполагается, что Emacs к этому моменту уже установлен. Если нет, он
