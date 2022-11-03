@@ -25,38 +25,16 @@ locale: ru_RU
 ## Краткая инструкция
 
 Интересующиеся репозиторием как таковым, скажем, для зеркалирования
-или просто из любопытства, приглашаются
-[сюда](https://github.com/poretsky/ppa).
+или просто из любопытства, приглашаются посетить соответствующий раздел
+[на Github](https://github.com/poretsky/ppa) или
+[на Launchpad](https://launchpad.net/~poretsky/+archive/ubuntu/a11y).
 А чтобы подключить его к системе управления пакетами, достаточно
 выполнить следующие несложные действия:
 
-- Загрузить открытый ключ [poretsky.gpg](repo/poretsky.gpg),
-  который будет использоваться для проверки подлинности моей подписи;
-
-- Внести его в связку ключей системы управления пакетами посредством
-  команды:
-
-```bash
-$ sudo apt-key add poretsky.gpg
-```
-
-- Загрузить файл `accessibility.list` со списком источников,
-  соответствующий вашему дистрибутиву:
-  - [Ubuntu 8.04 LTS (Hardy Heron)](files/hardy/accessibility.list)
-  - [Ubuntu 10.04 LTS (Lucid Lynx)](files/lucid/accessibility.list)
-  - [Ubuntu 12.04 (Precise Pangolin)](files/precise/accessibility.list)
-  - [Ubuntu 14.04 (Trusty Tahr)](files/trusty/accessibility.list)
-  - [Ubuntu 16.04 (Xenial Xerus)](files/xenial/accessibility.list)
-  - [Ubuntu 18.04 LTS (Bionic Beaver)](files/bionic/accessibility.list)
-  - [Ubuntu 20.04 LTS (Focal Fossa)](files/focal/accessibility.list)
-  - [Debian 6.0 (Squeeze)](files/squeeze/accessibility.list)
-  - [Debian 7.0 (Wheezy)](files/wheezy/accessibility.list)
-  - [Debian 8.0 (Jessie)](files/jessie/accessibility.list)
-  - [Debian 9.0 (Stretch)](files/stretch/accessibility.list)
-  - [Debian 10.0 (Buster)](files/buster/accessibility.list)
-
-- Поместить его в каталог `/etc/apt/sources.list.d` или просто
-  скопировать содержимое в файл `/etc/apt/sources.list`;
+- Зарегистрировать этот репозиторий в системе управления пакетами
+  согласно инструкциям, соответствующим вашему дистрибутиву:
+  - [Ubuntu 16.04 (Xenial Xerus) или более поздний](binding-lp-ru.md)
+  - [Другие выпуски Ubuntu или Debian](binding-repo-ru.md)
 
 - Актуализировать индексы системы управления пакетами посредством
   команды:
@@ -64,12 +42,6 @@ $ sudo apt-key add poretsky.gpg
 ```bash
 $ sudo apt-get update
 ```
-
-- Очень рекомендуется сделать данный репозиторий предпочтительным для
-  Apt, дабы предотвратить случайную установку несовместимых версий
-  пакетов из других источников. Для этой цели скачайте файл
-  [accessibility.pref](files/accessibility.pref) и поместите его
-  в каталог `/etc/apt/preferences.d`.
 
 После этого пакеты можно устанавливать и обновлять стандартными
 средствами, например, командой `apt-get install`.

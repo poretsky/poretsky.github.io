@@ -1,0 +1,3 @@
+Package: *
+Pin: release o=LP-PPA-poretsky-a11y
+Pin-Priority: 1000

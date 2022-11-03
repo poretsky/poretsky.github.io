@@ -21,48 +21,21 @@ by an old or somewhat inconsistent version.
 ## Quick start
 
 If you are interested in the repository itself for browsing or
-mirroring, get it [here](https://github.com/poretsky/ppa), but
-to make use of these packages it is enough to accomplish following
+mirroring, get it [here](https://github.com/poretsky/ppa) or visit
+[my PPA on Launchpad](https://launchpad.net/~poretsky/+archive/ubuntu/a11y),
+but to make use of these packages it is enough to accomplish following
 simple steps:
 
-- Download public key [poretsky.gpg](repo/poretsky.gpg) that will be
-  used for my signature verification;
-
-- Add it to the list of keys used by Apt by command:
-
-```bash
-$ sudo apt-key add poretsky.gpg
-```
-
-- Choose and download an `accessibility.list` file appropriate for
-  your distribution:
-  - [Ubuntu 8.04 LTS (Hardy Heron)](files/hardy/accessibility.list)
-  - [Ubuntu 10.04 LTS (Lucid Lynx)](files/lucid/accessibility.list)
-  - [Ubuntu 12.04 (Precise Pangolin)](files/precise/accessibility.list)
-  - [Ubuntu 14.04 (Trusty Tahr)](files/trusty/accessibility.list)
-  - [Ubuntu 16.04 (Xenial Xerus)](files/xenial/accessibility.list)
-  - [Ubuntu 18.04 LTS (Bionic Beaver)](files/bionic/accessibility.list)
-  - [Ubuntu 20.04 LTS (Focal Fossa)](files/focal/accessibility.list)
-  - [Debian 6.0 (Squeeze)](files/squeeze/accessibility.list)
-  - [Debian 7.0 (Wheezy)](files/wheezy/accessibility.list)
-  - [Debian 8.0 (Jessie)](files/jessie/accessibility.list)
-  - [Debian 9.0 (Stretch)](files/stretch/accessibility.list)
-  - [Debian 10.0 (Buster)](files/buster/accessibility.list)
-
-- Place this file in `/etc/apt/sources.list.d` directory or simply copy
-  its content into your `/etc/apt/sources.list` file;
+- Register the repository as a source of packages according to the
+  instructions suitable for your distribution:
+  - [Ubuntu 16.04 (Xenial Xerus) or later](binding-lp.md)
+  - [Other Ubuntu or Debian releases](binding-repo.md)
 
 - Update Apt package indices by command:
 
 ```bash
 $ sudo apt-get update
 ```
-
-- It is strongly recommended to make Apt prefer this repository to
-  prevent occasional installation of incompatible versions of some
-  packages from other sources. For this purpose download file
-  [accessibility.pref](files/accessibility.pref) and place it in
-  `/etc/apt/preferences.d` directory.
 
 After that you can use your preferred method to manage packages from
 this repository. For example, you can install and update them by
