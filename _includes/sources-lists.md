@@ -7,3 +7,4 @@
 - [Debian 8.0 (Jessie)](files/jessie/accessibility.list)
 - [Debian 9.0 (Stretch)](files/stretch/accessibility.list)
 - [Debian 10.0 (Buster)](files/buster/accessibility.list)
+- [Debian 11.0 (Bullseye)](files/bullseye/accessibility.list)
