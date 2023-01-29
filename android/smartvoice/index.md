@@ -36,7 +36,7 @@ not used during a fairly long time or in case of resource deficiency.
 
 Application interface is available in English, Italian, Spanish,
 Portuguese (Brazilian and European variants), German, Croatian,
-Polish, Hebrew, Russian and Ukrainian.
+Turkish, Polish, Hebrew, Russian and Ukrainian.
 
 By the way, I'd like to thank translators:
 
@@ -44,7 +44,8 @@ By the way, I'd like to thank translators:
 - **Zvonimir Stanecic** for Croatian and Polish,
 - **Vladimir Pyrig** for Ukrainian,
 - **Alexy Voronov** for German,
-- **Wendrill Aksenow Brandão** and **Michel Henrique** for Portuguese.
+- **Wendrill Aksenow Brandão** and **Michel Henrique** for Portuguese,
+- **Neyman Agayev** for Turkish.
 
 For the most part this product is intended for the visually impaired
 people who are forced to use speech feedback as a primary
@@ -171,3 +172,9 @@ opens the respective voice settings screen. Long press on the
 "According to the application settings" item opens automatic language
 recognition preferences section. But this item is shown only when an
 explicit voice selection is in use.
+
+----
+
+Feel free to e-mail me with all related questions and suggestions.
+
+{% include feedback.html name=site.data.author.name.en %}

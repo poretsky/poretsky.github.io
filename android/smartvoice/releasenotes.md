@@ -43,6 +43,17 @@ screen, voices setup screen and voices assignment screen. On the other
 hand, this button should not be frequently needed since in the most
 cases all relevant changes are caught automatically.
 
-And, in addition, Portuguese translations (European and Brazilian)
-have been added. Thanks to Wendrill Aksenow Brandão and Michel
-Henrique.
+## New translations
+
+* Portuguese translations (European and Brazilian) have been
+  added. Thanks to Wendrill Aksenow Brandão and Michel Henrique.
+* Turkish translations from Neyman Agayev have been added in 4.1.3.
+
+## Russian Robot voice
+
+The following improvements for the Russian Robot voice have been
+implemented in 4.1.3:
+
+* Extended speech rate variation range.
+* Fixed huge numbers pronunciation.
+* Pronunciation dictionary updated.
