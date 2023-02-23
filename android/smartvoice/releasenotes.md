@@ -3,6 +3,23 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.4 news
+
+* Updated and greatly extended emoji dictionary.
+* Turkish translation fixed.
+* Russian Robot voice enhancements:
+  * Leading zeros pronunciation fixed in digital sequences,
+  * hopefully improved sound quality,
+  * pronunciation dictionary updated.
+
+## Version 4.1.3 news
+
+* Turkish translations from Neyman Agayev have been added.
+* Russian Robot voice enhancements:
+  * extended speech rate variation range,
+  * fixed huge numbers pronunciation,
+  * pronunciation dictionary updated.
+
 ## About voices
 
 Vocalizer Expressive v1 voices support has been dropped. Please, use
@@ -45,15 +62,5 @@ cases all relevant changes are caught automatically.
 
 ## New translations
 
-* Portuguese translations (European and Brazilian) have been
-  added. Thanks to Wendrill Aksenow Brandão and Michel Henrique.
-* Turkish translations from Neyman Agayev have been added in 4.1.3.
-
-## Russian Robot voice
-
-The following improvements for the Russian Robot voice have been
-implemented in 4.1.3:
-
-* Extended speech rate variation range.
-* Fixed huge numbers pronunciation.
-* Pronunciation dictionary updated.
+Portuguese translations (European and Brazilian) have been
+added. Thanks to Wendrill Aksenow Brandão and Michel Henrique.
