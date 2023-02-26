@@ -47,6 +47,10 @@ By the way, I'd like to thank translators:
 - **Wendrill Aksenow Brandão** and **Michel Henrique** for Portuguese,
 - **Neyman Agayev** for Turkish.
 
+Those who want to correct some translations or add new ones are
+welcome to the
+[translations page](https://github.com/poretsky/SmartVoice-translations).
+
 For the most part this product is intended for the visually impaired
 people who are forced to use speech feedback as a primary
 interface. Android accessibility service in its current state does
