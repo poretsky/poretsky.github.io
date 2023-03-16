@@ -11,4 +11,4 @@ language: en
 - [Accessibility related software for Android](android/index.md)
 - [Unofficial Rockbox builds](rockbox/index.md)  
   with accessibility improvements and some other additions and fixes
-- [My projects on GitHub](projects.md)
+- [My opensource projects](projects.md)

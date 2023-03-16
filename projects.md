@@ -5,7 +5,7 @@ keywords: accessibility,development,Linux,emacs,TTS
 language: en
 ---
 
-Here is a list of my opensource projects that from my point of view
+Here is a list of those of my projects that from my point of view
 are the most valuable.
 
 [Emacspeak](https://github.com/poretsky/emacspeak) -- The complete
