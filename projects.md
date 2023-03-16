@@ -1,5 +1,5 @@
 ---
-title: My projects on GitHub
+title: My opensource projects
 description: A brief description of several opensource projects
 keywords: accessibility,development,Linux,emacs,TTS
 language: en
