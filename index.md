@@ -12,3 +12,4 @@ language: en
 - [Unofficial Rockbox builds](rockbox/index.md)  
   with accessibility improvements and some other additions and fixes
 - [My opensource projects](projects.md)
+- [My page on Launchpad](https://launchpad.net/~poretsky)
