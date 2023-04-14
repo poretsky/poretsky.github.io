@@ -3,6 +3,11 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.6 news
+
+* Spanish translations improvement.
+* Emoji dictionary fixes and update.
+
 ## Version 4.1.5 news
 
 Emoji dictionary cleanup: removed some misleading or ambiguous

@@ -45,7 +45,8 @@ By the way, I'd like to thank translators:
 - **Vladimir Pyrig** for Ukrainian,
 - **Alexy Voronov** for German,
 - **Wendrill Aksenow Brandão** and **Michel Henrique** for Portuguese,
-- **Neyman Agayev** for Turkish.
+- **Neyman Agayev** for Turkish,
+- **Guillermo Eduardo Charcahuana López** for the help in Spanish.
 
 Those who want to correct some translations or add new ones are
 welcome to the
