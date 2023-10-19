@@ -58,7 +58,10 @@ locale: ru_RU
 [Youtube-dl-el](https://github.com/poretsky/youtube-dl-emacs) --
 Emacs-интерфейс для **Youtube**. Проект отпочковался от
 [skeeto/youtube-dl-emacs](https://github.com/skeeto/youtube-dl-emacs)
-и претерпел весьма существенное развитие.
+и претерпел весьма существенное развитие. Теперь это не только (и даже
+не столько) инструмент загрузки с Youtube, но в связке с браузером
+**W3m** может служить также и удобным средством просмотра и поиска
+информации на ресурсе.
 
 [Gh-subscription](https://github.com/poretsky/gh-subscription) --
 Расширение командного интерфейса GitHub для управления подписками.

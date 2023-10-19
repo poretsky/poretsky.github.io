@@ -55,7 +55,9 @@ English language. Originates from the archive found at
 [Youtube-dl-el](https://github.com/poretsky/youtube-dl-emacs) -- Emacs
 interface for **Youtube**. Originally forked from
 [skeeto/youtube-dl-emacs](https://github.com/skeeto/youtube-dl-emacs),
-but greatly enhanced.
+but greatly enhanced. Now it is not only a Youtube downloader, but in
+conjunction with **W3m** web browser serves for easy browsing and
+searching **Youtube** as well.
 
 [Gh-subscription](https://github.com/poretsky/gh-subscription) --
 GitHub CLI extension for subscription management.
