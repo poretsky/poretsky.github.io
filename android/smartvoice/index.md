@@ -35,8 +35,8 @@ effect it prevents system from unloading speech synthesizer when it is
 not used during a fairly long time or in case of resource deficiency.
 
 Application interface is available in English, Italian, Spanish,
-Portuguese (Brazilian and European variants), German, Croatian,
-Turkish, Polish, Hebrew, Russian and Ukrainian.
+Portuguese (Brazilian and European variants), German, Croatian, Czech,
+Slovak, Turkish, Polish, Hebrew, Russian and Ukrainian.
 
 By the way, I'd like to thank translators:
 
@@ -46,6 +46,7 @@ By the way, I'd like to thank translators:
 - **Alexy Voronov** for German,
 - **Wendrill Aksenow Brandão** and **Michel Henrique** for Portuguese,
 - **Neyman Agayev** for Turkish,
+- **LLZN** for Czech and Slovak,
 - **Guillermo Eduardo Charcahuana López** for the help in Spanish.
 
 Those who want to correct some translations or add new ones are
