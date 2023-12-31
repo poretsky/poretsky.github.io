@@ -28,7 +28,7 @@ against their official counterparts:
   - a file is executed according to it's type.
 - more general pronunciation style for numeric values that better
   fits various languages.
-- Added an option in the files view settings that allows to choose
+- Added an option in the files view settings that allows one to choose
   between two sort orders: directories first (default) and files
   first. This option is also respected when directory changes during
   playback. Thus, playback order is now completely consistent with

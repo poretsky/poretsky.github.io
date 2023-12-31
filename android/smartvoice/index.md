@@ -15,7 +15,7 @@ of input text. In fact, not all supported languages can be recognized
 automatically, but only a certain subset. For the moment it includes
 Arabic, Bulgarian, Chinese, Croatian, English, French, German, Greek,
 Hebrew, Italian, Japanese, Polish, Portuguese, Russian, Spanish and
-Turkish. Besides that, this synthesizer allows to adjust voices
+Turkish. Besides that, this synthesizer allows one to adjust voices
 separately. So, such parameters as volume, speech rate and voice pitch
 can be tuned for each voice individually.
 
@@ -23,7 +23,7 @@ Another important feature of SmartVoice is its capability to recognize
 and read emojis and it is possible to assign a separate voice for it.
 
 After installation the synthesizer becomes available in the
-applications list that allows to setup it just before starting.
+applications list that allows one to setup it just before starting.
 
 Current speech language and voice can be as well immediately changed
 manually at any moment via the main application interface, which can

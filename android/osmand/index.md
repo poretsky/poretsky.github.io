@@ -103,10 +103,10 @@ fork” between the two signals.
 
 ### Reverse geocoding
 
-Implemented reverse geocoding facility. It allows to receive a verbose
-description (usually it is a postal address) of the current location.
-This information could be retrieved from various online sources as
-well as from the maps stored in the device memory in offline
+Implemented reverse geocoding facility. It allows one to receive a
+verbose description (usually it is a postal address) of the current
+location. This information could be retrieved from various online
+sources as well as from the maps stored in the device memory in offline
 mode. Source selection is available in the program accessibility
 preferences.
 
@@ -180,12 +180,12 @@ been added in this particular version:
 
 - Auditory and haptic compass feedback has been made different for
   left and right inclination.
-- Introduced accessibility specific option that allows to adjust
+- Introduced accessibility specific option that allows one to adjust
   approach distance for waypoints. This option can be set separately
   for each profile and it is taken in account only when accessibility
   mode is active. Furthermore, in accessibility mode only this close
   approach is signaled, because preliminary signal seems rather confusing.
-- Introduced new accessibility related option that allows to adjust
+- Introduced new accessibility related option that allows one to adjust
   route deviation tolerance. This option can be set separately for
   each profile and it is taken in account only when accessibility
   mode is active. When it is set, user is warned about route failure

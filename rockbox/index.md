@@ -97,8 +97,8 @@ to do that.
 Since the official Rockbox bootloader for Cowon iAudio X5 player
 overrides the original firmware, I prefer
 [the alternative one]({{ assets_url }}/x5_dualboot_RB_fw-2.10E.zip)
-that allows to keep Rockbox along with the original firmware. See the
-README file included into the archive for details.
+that allows one to keep Rockbox along with the original firmware. See
+the README file included into the archive for details.
 
 ### Playing midi-files
 

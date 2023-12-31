@@ -36,7 +36,7 @@ Following changes are made in addition by my own patches:
 - Shrinked viewers list suggested for a selected file in context
   menu just as in
   [FS#9043]({{ tracker }}/task/9043);
-- Implemented alarm timer that allows to program how long the device
+- Implemented alarm timer that allows one to program how long the device
   should stay active after waking up, thus, now it can be used for
   making automatic scheduled recording of radio programs, for
   instance, see [here](features.md#anchor2) for usage explanation;
