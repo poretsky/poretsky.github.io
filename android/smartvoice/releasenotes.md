@@ -3,6 +3,11 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.8 news
+
+* Russian Robot voice pronunciation dictionary update.
+* Emoji dictionary update.
+
 ## Version 4.1.7 news
 
 * Czech and Slovak translations added.
