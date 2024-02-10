@@ -66,6 +66,9 @@ Emacs-интерфейс для **Youtube**. Проект отпочковалс
 [Gh-subscription](https://github.com/poretsky/gh-subscription) --
 Расширение командного интерфейса GitHub для управления подписками.
 
+[TuningFork](https://github.com/poretsky/TuningFork) -- Простое
+приложение для Android, генерирующее звуки эталонной высоты.
+
 [SmartVoice-translations](https://github.com/poretsky/SmartVoice-translations) --
 Подлежащий переводу ресурс синтезатора речи
 [SmartVoice](android/smartvoice/index-ru.md), который сам по себе не
