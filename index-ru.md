@@ -15,3 +15,4 @@ locale: ru_RU
   доступности и не только.
 - [Мои открытые проекты](projects-ru.md)
 - [Моя страница на Launchpad](https://launchpad.net/~poretsky)
+- [Дела давно минувших дней](history-ru.md)
