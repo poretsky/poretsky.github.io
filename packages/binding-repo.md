@@ -11,6 +11,9 @@ Apt keys by command:
 $ sudo apt-key add poretsky.gpg
 ```
 
+Or place it in `/etc/apt/trusted.gpg.d` directory that is the
+preferred way in modern releases.
+
 Then choose and download an `accessibility.list` file appropriate for
 your distribution:
 

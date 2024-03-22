@@ -28,8 +28,8 @@ simple steps:
 
 - Register the repository as a source of packages according to the
   instructions suitable for your distribution:
-  - [Ubuntu 16.04 (Xenial Xerus) or later](binding-lp.md)
-  - [Other Ubuntu or Debian releases](binding-repo.md)
+  - [Ubuntu 16.04 (Xenial Xerus) or later LTS releases](binding-lp.md)
+  - [Debian or older Ubuntu LTS releases](binding-repo.md)
 
 - Update Apt package indices by command:
 
