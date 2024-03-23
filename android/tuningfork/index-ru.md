@@ -14,11 +14,12 @@ locale: ru_RU
 смартфон, оно всегда под рукой и готово к работе.
 
 {% capture apk_file %}TuningFork-{{ site.data.tuningfork.version }}.apk{% endcapture %}
+{% capture assets_url %}{{ site.data.tuningfork.assets }}{{ site.data.tuningfork.version }}{% endcapture %}
 
 Исходный код открыт, так что добро пожаловать на
 [страницу проекта](https://github.com/poretsky/TuningFork) или же
 просто скачивайте и устанавливайте готовый пакет
-[{{ apk_file }}](https://github.com/poretsky/TuningFork/releases/download/v{{ site.data.tuningfork.version }}/{{ apk_file }})
+{% include download.md file=apk_file url=assets_url %}
 на свой страх и риск, как водится.
 
 Для работы приложения необходим

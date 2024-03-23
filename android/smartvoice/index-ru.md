@@ -83,7 +83,7 @@ _не входят_ в состав синтезатора. Думаю, они �
 {% capture apk_file %}SmartVoice-{{ site.data.smartvoice.version }}.apk{% endcapture %}
 
 В общем, при желании здесь можно взять пакет
-[{{ apk_file }}](https://github.com/poretsky/poretsky.github.io/releases/download/android/{{ apk_file }}),
+{% include download.md file=apk_file url=site.data.download.android %},
 установить его и использовать исключительно на свой страх и
 риск. Разумеется, никаких гарантий.
 

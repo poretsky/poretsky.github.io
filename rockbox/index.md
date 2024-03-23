@@ -48,7 +48,7 @@ build if you need.
 Choose an appropriate build for your architecture:
 
 {% capture release_url -%}
-https://github.com/poretsky/rockbox/releases/download/v{{ site.data.rockbox.version }}
+{{ site.data.rockbox.assets }}{{ site.data.rockbox.version }}
 {%- endcapture %}
 
 {% for build in site.data.rockbox.builds %}
@@ -57,15 +57,19 @@ https://github.com/poretsky/rockbox/releases/download/v{{ site.data.rockbox.vers
 {{ build.id }}-{{ site.data.rockbox.version }}
 {%- endcapture %}
 
+{% capture firmware %}rockbox-{{ signature }}.zip{% endcapture %}
+{% capture voice %}{{ signature }}-russian.zip{% endcapture %}
+{% capture manual %}rockbox-manual-{{ signature }}.pdf{% endcapture %}
+
 ### {{ build.title }}
 
 - Rockbox firmware:
-  [rockbox-{{ signature }}.zip]({{ release_url }}/rockbox-{{ signature }}.zip)
+  {% include download.md file=firmware url=release_url %}
 - Russian voice:
-  [{{ signature }}-russian.zip]({{ release_url }}/{{ signature }}-russian.zip)
+  {% include download.md file=voice url=release_url %}
 {% if build.has_doc -%}
 - User manual:
-  [rockbox-manual-{{ signature }}.pdf]({{ release_url }}/rockbox-manual-{{ signature }}.pdf)
+  {% include download.md file=manual url=release_url %}
 {%- endif %}
 
 {% endfor %}
@@ -88,15 +92,13 @@ to do that.
 
 ----
 
-{% assign assets_url="https://github.com/poretsky/poretsky.github.io/releases/download/assets" %}
-
 ## Additional goodies
 
 ### Alternative bootloader for Cowon iAudio X5
 
 Since the official Rockbox bootloader for Cowon iAudio X5 player
 overrides the original firmware, I prefer
-[the alternative one]({{ assets_url }}/x5_dualboot_RB_fw-2.10E.zip)
+{% include download.md tag="the alternative one" file="x5_dualboot_RB_fw-2.10E.zip" %}
 that allows one to keep Rockbox along with the original firmware. See
 the README file included into the archive for details.
 
@@ -110,13 +112,13 @@ Rockbox installation. It should be enough.
 
 ### Creating voice thumbnails
 
-The [voicebox]({{ assets_url }}/voicebox) shell script is designed
+The (% include download.md file="voicebox" %} shell script is designed
 to make voice thumbnails for file names and FM radio presets on a
-Linux machine. It makes use of the [rbspeak]({{ assets_url }}/rbspeak)
+Linux machine. It makes use of the {% include download.md file="rbspeak" %}
 shell script for actual speech synthesis. This script in turn uses
 Mbrola speech synthesizer for producing English speech and Ru_tts
 engine for Russian. See embedded comments for more details. To
-compress produced sound the [rbspeexenc]({{ assets_url }}/rbspeexenc)
+compress produced sound the {% include download.md file="rbspeexenc" %}
 program is used that was generated from the Rockbox sources.
 
 On **Debian** and **Ubuntu** all necessary speech synthesizers can be
@@ -135,7 +137,8 @@ distinguishable simply by voice.
 ### Talking FM radio presets
 
 The FM radio presets pack for a bunch of cities (mostly Russian) along
-with voice thumbnails is available [here]({{ assets_url }}/fmpresets.zip).
+with voice thumbnails is available
+{% include download.md tag="here" file="fmpresets.zip" %}.
 Downloaded archive should be unpacked in the `.rockbox` directory on
 the device where Rockbox is installed. The voice thumbnails were
 created by Russian and English speech synthesizers depending on the
@@ -146,7 +149,8 @@ stations and their frequencies was taken from
 ### Recorder presets
 
 In order to simplify switching from one source to another in recorder
-I've created [basic presets]({{ assets_url }}/recpresets.zip)
+I've created
+{% include download.md tag="basic presets" file="recpresets.zip" %}
 for each one:
 
 - voice -- record from microphone, place file into `/voice` directory,

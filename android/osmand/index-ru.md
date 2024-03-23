@@ -214,8 +214,8 @@ accessibility plugin, предоставляющий пользователю н
 
 Установочный пакет приложения можно взять прямо здесь:
 
-- [OsmAnd-1.9.5-a11y+2.apk](https://github.com/poretsky/poretsky.github.io/releases/download/android/OsmAnd-1.9.5-a11y+2.apk)
-- [OsmAnd-2.9.3-a11y+1.apk](https://github.com/poretsky/poretsky.github.io/releases/download/android/OsmAnd-2.9.3-a11y+1.apk)
+- {% include download.md file="OsmAnd-1.9.5-a11y+2.apk" url=site.data.download.android %}
+- {% include download.md file="OsmAnd-2.9.3-a11y+1.apk" url=site.data.download.android %}
 
 А можно и на
 [сайте КСРК](http://ksrk-edu.ru/osmand/ru/),

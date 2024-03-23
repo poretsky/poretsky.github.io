@@ -219,8 +219,8 @@ Here is the list of changes introduced in this release:
 
 Installable package of the application can be downloaded here:
 
-- [OsmAnd-1.9.5-a11y+2.apk](https://github.com/poretsky/poretsky.github.io/releases/download/android/OsmAnd-1.9.5-a11y+2.apk)
-- [OsmAnd-2.9.3-a11y+1.apk](https://github.com/poretsky/poretsky.github.io/releases/download/android/OsmAnd-2.9.3-a11y+1.apk)
+- {% include download.md file="OsmAnd-1.9.5-a11y+2.apk" url=site.data.download.android %}
+- {% include download.md file="OsmAnd-2.9.3-a11y+1.apk" url=site.data.download.android %}
 
 Or you can find it on the
 [project's page](http://ksrk-edu.ru/osmand/en/)

@@ -1,5 +1,6 @@
 version: 3.15p17
 release_date: 2024-02-20
+assets: https://github.com/poretsky/rockbox/releases/download/v
 
 builds:
   - id: ipodmini2g

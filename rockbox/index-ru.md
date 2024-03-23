@@ -51,7 +51,7 @@ rss: feed-ru.xml
 Выбирайте сборку в соответствии с моделью вашего плеера:
 
 {% capture release_url -%}
-https://github.com/poretsky/rockbox/releases/download/v{{ site.data.rockbox.version }}
+{{ site.data.rockbox.assets }}{{ site.data.rockbox.version }}
 {%- endcapture %}
 
 {% for build in site.data.rockbox.builds %}
@@ -60,15 +60,19 @@ https://github.com/poretsky/rockbox/releases/download/v{{ site.data.rockbox.vers
 {{ build.id }}-{{ site.data.rockbox.version }}
 {%- endcapture %}
 
+{% capture firmware %}rockbox-{{ signature }}.zip{% endcapture %}
+{% capture voice %}{{ signature }}-russian.zip{% endcapture %}
+{% capture manual %}rockbox-manual-{{ signature }}.pdf{% endcapture %}
+
 ### {{ build.title }}
 
 - Сборка Rockbox:
-  [rockbox-{{ signature }}.zip]({{ release_url }}/rockbox-{{ signature }}.zip)
+  {% include download.md file=firmware url=release_url %}
 - Русский голос:
-  [{{ signature }}-russian.zip]({{ release_url }}/{{ signature }}-russian.zip)
+  {% include download.md file=voice url=release_url %}
 {% if build.has_doc -%}
 - Руководство пользователя (на английском языке):
-  [rockbox-manual-{{ signature }}.pdf]({{ release_url }}/rockbox-manual-{{ signature }}.pdf)
+  {% include download.md file=manual url=release_url %}
 {%- endif %}
 
 {% endfor %}
@@ -95,15 +99,14 @@ https://github.com/poretsky/rockbox/releases/download/v{{ site.data.rockbox.vers
 
 ----
 
-{% assign assets_url="https://github.com/poretsky/poretsky.github.io/releases/download/assets" %}
-
 ## Разные дополнительные штуки
 
 ### Альтернативный загрузчик для Cowon iAudio X5
 
 Так как официальный загрузчик Rockbox для этого плеера полностью
 замещает собой родную прошивку, я предпочитаю ему
-[другой]({{ assets_url }}/x5_dualboot_RB_fw-2.10E.zip), который
+{% include download.md tag="другой" file="x5_dualboot_RB_fw-2.10E.zip" %},
+который
 позволяет загружать и то и другое по выбору. Подробности в файле
 README, входящем в состав архива.
 
@@ -117,16 +120,16 @@ Rockbox поддерживает целую кучу разнообразных 
 
 ### Создание голосовых меток
 
-Shell-скрипт [voicebox]({{ assets_url }}/voicebox) позволяет создавать
+Shell-скрипт {% include download.md file="voicebox" %} позволяет создавать
 голосовые метки для имен файлов и названий радиостанций.
 Для собственно синтеза речи он использует другой shell-скрипт,
-[rbspeak]({{ assets_url }}/rbspeak),
+{% include download.md file="rbspeak" %},
 который в свою очередь обращается уже к русскому или английскому
 синтезатору в зависимости от языка входного текста. В качестве
 английского синтезатора используется все та же Mbrola, для русского же -
 Ru_tts. Оба скрипта довольно пространно прокомментированы. Сжатие
 полученного звукового потока выполняется утилитой
-[rbspeexenc]({{ assets_url }}/rbspeexenc),
+{% include download.md file="rbspeexenc" %},
 собранной из исходников Rockbox.
 
 Все это хозяйство работает в среде Linux. В **Debian** и **Ubuntu**
@@ -147,7 +150,7 @@ $ sudo aptitude install mbrola mbrola-en1 freephone enlex ru-tts rulex=
 
 Пакет настроек радиостанций для целого ряда городов (главным образом
 российских) вместе с соответствующими голосовыми метками можно взять
-[здесь]({{ assets_url }}/fmpresets.zip).
+{% include download.md tag="здесь" file="fmpresets.zip" %}.
 Скачанный архив следует распаковать в каталоге `.rockbox` на
 устройстве, где установлен Rockbox. Голосовые метки созданы русским и
 английским синтезатором, в зависимости от того, какой алфавит
@@ -157,7 +160,8 @@ $ sudo aptitude install mbrola mbrola-en1 freephone enlex ru-tts rulex=
 ### Предустановки записи
 
 Дабы облегчить процесс переключения различных источников записи, я
-создал [базовые пакеты настроек]({{ assets_url }}/recpresets.zip)
+создал
+{% include download.md tag="базовые пакеты настроек" file="recpresets.zip" %}
 для каждого из них:
 
 - voice -- запись с микрофона, результат размещается в каталоге `/voice`,

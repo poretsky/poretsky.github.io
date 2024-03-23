@@ -77,7 +77,7 @@ desperately desired functionality to whom it may concern.
 {% capture apk_file %}SmartVoice-{{ site.data.smartvoice.version }}.apk{% endcapture %}
 
 So, grab the package
-[{{ apk_file }}](https://github.com/poretsky/poretsky.github.io/releases/download/android/{{ apk_file }})
+{% include download.md file=apk_file url=site.data.download.android %}
 if you like, install it and use at your own risk.
 Of course, no warranties.
 
