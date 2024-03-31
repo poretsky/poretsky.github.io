@@ -34,9 +34,9 @@
       {% capture front_panel -%}
       {% case page.language -%}
         {%- when "en" -%}
-          <a class="button" href="{{ page.name | replace: ".md", "-ru.html" }}"><strong>Перейти на русский</strong></a>
+          <a class="button" href="{{ page.name | replace: ".md", "-ru.html" }}"><strong><span lang="ru">Перейти на русский</span></strong></a>
         {%- when "ru" -%}
-          <a class="button" href="{{ page.name | replace: "-ru.md", ".html" }}"><strong>Switch to English</strong></a>
+          <a class="button" href="{{ page.name | replace: "-ru.md", ".html" }}"><strong><span lang="en">Switch to English</span></strong></a>
       {%- endcase %}
       {% if page.rss and page.rss != empty -%}
         <a class="button" target="_blank" href="{{ page.rss }}">RSS</a>
