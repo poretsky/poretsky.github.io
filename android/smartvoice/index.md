@@ -36,7 +36,7 @@ not used during a fairly long time or in case of resource deficiency.
 
 Application interface is available in English, Italian, Spanish,
 Portuguese (Brazilian and European variants), German, Croatian, Czech,
-Slovak, Turkish, Polish, Hebrew, Russian and Ukrainian.
+Slovak, Turkish, Polish, Hebrew, Russian, Ukrainian and Belarusian.
 
 By the way, I'd like to thank translators:
 
@@ -47,6 +47,7 @@ By the way, I'd like to thank translators:
 - **Wendrill Aksenow Brandão** and **Michel Henrique** for Portuguese,
 - **Neyman Agayev** for Turkish,
 - **LLZN** for Czech and Slovak,
+- **Uladzimir Charaukhin** for Belarusian,
 - **Guillermo Eduardo Charcahuana López** for the help in Spanish.
 
 Those who want to correct some translations or add new ones are
