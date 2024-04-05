@@ -15,6 +15,12 @@ installed on a smartphone, is always ready to use.
 {% capture apk_file %}TuningFork-{{ site.data.tuningfork.version }}.apk{% endcapture %}
 {% capture assets_url %}{{ site.data.tuningfork.assets }}{{ site.data.tuningfork.version }}{% endcapture %}
 
+Application interface is available in English, Russian and Belarusian.
+
+By the way, I'd like to thank translators:
+
+- **Uladzimir Charaukhin** for Belarusian.
+
 This application is open source. So, welcome to the
 [project page](https://github.com/poretsky/TuningFork) or
 download

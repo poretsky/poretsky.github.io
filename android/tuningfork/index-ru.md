@@ -16,6 +16,13 @@ locale: ru_RU
 {% capture apk_file %}TuningFork-{{ site.data.tuningfork.version }}.apk{% endcapture %}
 {% capture assets_url %}{{ site.data.tuningfork.assets }}{{ site.data.tuningfork.version }}{% endcapture %}
 
+интерфейс приложения доступен на следующих языках: русском,
+белорусском и английском.
+
+Пользуясь случаем, хочу выразить благодарность переводчикам:
+
+- **Владимиру Череухину** за белорусский.
+
 Исходный код открыт, так что добро пожаловать на
 [страницу проекта](https://github.com/poretsky/TuningFork) или же
 просто скачивайте и устанавливайте готовый пакет
