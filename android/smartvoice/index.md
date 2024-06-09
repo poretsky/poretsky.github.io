@@ -34,7 +34,7 @@ such as an accessibility feedback, for instance, because as a side
 effect it prevents system from unloading speech synthesizer when it is
 not used during a fairly long time or in case of resource deficiency.
 
-Application interface is available in English, Italian, Spanish,
+Application interface is available in English, Italian, Spanish, Chinese,
 Portuguese (Brazilian and European variants), German, Croatian, Czech,
 Slovak, Turkish, Polish, Hebrew, Russian, Ukrainian and Belarusian.
 
@@ -47,6 +47,7 @@ By the way, I'd like to thank translators:
 - **Wendrill Aksenow Brandão** and **Michel Henrique** for Portuguese,
 - **Neyman Agayev** for Turkish,
 - **LLZN** for Czech and Slovak,
+- **Yiuwing Leung** for Chinese,
 - **Uladzimir Charaukhin** for Belarusian,
 - **Guillermo Eduardo Charcahuana López** for the help in Spanish.
 

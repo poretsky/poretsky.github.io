@@ -3,6 +3,11 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.9 news
+
+* Belarusian and Chinese translations.
+* Russian Robot voice pronunciation dictionary update.
+
 ## Version 4.1.8 news
 
 * Russian Robot voice pronunciation dictionary update.
