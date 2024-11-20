@@ -3,6 +3,13 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.10 news
+
+* Hungarian translations added.
+* Russian Robot voice pronunciation dictionary update.
+* Emoji dictionary update.
+* Minor general improvements and bugfixes.
+
 ## Version 4.1.9 news
 
 * Belarusian and Chinese translations.
