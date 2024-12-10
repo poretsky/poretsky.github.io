@@ -27,5 +27,9 @@ download
 {% include download.md file=apk_file url=assets_url %}
 if you like, install it on your smartphone and use.
 
+Or preferably install it from
+[F-Droid](https://f-droid.org/en/packages/io.github.poretsky.tuningfork/)
+and get automatic updates and additional security.
+
 [Android 6.0](https://en.wikipedia.org/wiki/Android_Marshmallow)
 or later is required.

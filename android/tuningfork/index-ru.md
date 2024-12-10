@@ -29,6 +29,10 @@ locale: ru_RU
 {% include download.md file=apk_file url=assets_url %}
 на свой страх и риск, как водится.
 
+Или, еще лучше, установите его с
+[F-Droid](https://f-droid.org/ru/packages/io.github.poretsky.tuningfork/),
+что обеспечит автоматические обновления и большую безопасность.
+
 Для работы приложения необходим
 [Android 6.0](https://ru.wikipedia.org/wiki/Android_Marshmallow)
 или более поздней версии.
