@@ -59,6 +59,10 @@ but greatly enhanced. Now it is not only a Youtube downloader, but in
 conjunction with **W3m** web browser serves for easy browsing and
 searching **Youtube** as well.
 
+[Linphone-el](https://github.com/poretsky/linphone-el) -- Emacs
+interface for the
+[Linphone](https://www.linphone.org/en/homepage-linphone/) SIP-client.
+
 [Gh-subscription](https://github.com/poretsky/gh-subscription) --
 GitHub CLI extension for subscription management.
 

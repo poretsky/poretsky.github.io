@@ -63,6 +63,10 @@ Emacs-интерфейс для **Youtube**. Проект отпочковалс
 **W3m** может служить также и удобным средством просмотра и поиска
 информации на ресурсе.
 
+[Linphone-el](https://github.com/poretsky/linphone-el) --
+Emacs-интерфейс для SIP-клиента
+[Linphone](https://www.linphone.org/en/homepage-linphone/).
+
 [Gh-subscription](https://github.com/poretsky/gh-subscription) --
 Расширение командного интерфейса GitHub для управления подписками.
 
