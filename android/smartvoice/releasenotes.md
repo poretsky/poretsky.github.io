@@ -3,6 +3,10 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.12 news
+
+* Arabic translations fixed.
+
 ## Version 4.1.11 news
 
 * Arabic translations added.
