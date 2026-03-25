@@ -3,6 +3,12 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.13 news
+
+* Tatar translations added.
+* Arabic translations update.
+* Emoji dictionary update.
+
 ## Version 4.1.12 news
 
 * Arabic translations fixed.
