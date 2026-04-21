@@ -3,6 +3,11 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.14 news
+
+* Automatic recognition of Hindi, Bengali, Tamil and Telugu languages.
+* Bulgarian translations added.
+
 ## Version 4.1.13 news
 
 * Tatar translations added.

@@ -12,10 +12,30 @@ Release date: **{{ site.data.smartvoice.release_date }}**.
 The most prominent feature of this synthesizer is its capability to
 distinguish and switch language automatically according to the nature
 of input text. In fact, not all supported languages can be recognized
-automatically, but only a certain subset. For the moment it includes
-Arabic, Bulgarian, Chinese, Croatian, English, French, German, Greek,
-Hebrew, Italian, Japanese, Polish, Portuguese, Russian, Spanish and
-Turkish. Besides that, this synthesizer allows one to adjust voices
+automatically, but only a certain subset. For the moment it includes:
+
+- Arabic,
+- Bulgarian,
+- Chinese,
+- Croatian,
+- English,
+- French,
+- German,
+- Greek,
+- Hebrew,
+- Italian,
+- Japanese,
+- Polish,
+- Portuguese,
+- Russian,
+- Spanish,
+- Turkish,
+- Hindi,
+- Bengali,
+- Tamil,
+- Telugu.
+
+Besides that, this synthesizer allows one to adjust voices
 separately. So, such parameters as volume, speech rate and voice pitch
 can be tuned for each voice individually.
 
@@ -34,10 +54,27 @@ such as an accessibility feedback, for instance, because as a side
 effect it prevents system from unloading speech synthesizer when it is
 not used during a fairly long time or in case of resource deficiency.
 
-Application interface is available in English, Italian, Spanish, Chinese,
-Portuguese (Brazilian and European variants), German, Croatian, Czech,
-Slovak, Turkish, Hungarian, Polish, Hebrew, Arabic, Russian, Ukrainian,
-Tatar and Belarusian.
+Application interface is available in
+
+- English,
+- Italian,
+- Spanish,
+- Chinese,
+- Portuguese (Brazilian and European variants),
+- German,
+- Croatian,
+- Czech,
+- Slovak,
+- Turkish,
+- Hungarian,
+- Polish,
+- Hebrew,
+- Arabic,
+- Russian,
+- Ukrainian,
+- Tatar,
+- Belarusian
+- Bulgarian.
 
 By the way, I'd like to thank translators:
 
@@ -53,6 +90,7 @@ By the way, I'd like to thank translators:
 - **Zsiga68** for Hungarian,
 - **TheSingleAlgerianPotato** for Arabic,
 - **UnseenLight** for Tatar,
+- **Trunars** for Bulgarian,
 - **Hakuchi** for various translations fixes,
 - **Guillermo Eduardo Charcahuana López** for the help in Spanish.
 
