@@ -3,6 +3,10 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.15 news
+
+* Automatic recognition of Kannada and Marathi languages.
+
 ## Version 4.1.14 news
 
 * Automatic recognition of Hindi, Bengali, Tamil and Telugu languages.

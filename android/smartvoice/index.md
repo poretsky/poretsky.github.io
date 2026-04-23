@@ -33,7 +33,9 @@ automatically, but only a certain subset. For the moment it includes:
 - Hindi,
 - Bengali,
 - Tamil,
-- Telugu.
+- Telugu
+- Kannada,
+- Marathi.
 
 Besides that, this synthesizer allows one to adjust voices
 separately. So, such parameters as volume, speech rate and voice pitch
