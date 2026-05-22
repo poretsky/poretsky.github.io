@@ -3,6 +3,18 @@ title: What's new in versions 4.x.x
 language: en
 ---
 
+## Version 4.1.16 news
+
+* Thai translations added.
+* Languages order enhancement in the voice selection screen: The
+  languages having more voices to select are moved to the top of the
+  list.
+* Enhanced items order in the voices settings screen: The explicitly
+  selected voices are now placed at the top of the list. Then follow
+  the ones that have alternatives for their languages and, thus, can
+  be selected. And the voices that have no alternative within its
+  language form the reminder of the list.
+
 ## Version 4.1.15 news
 
 * Automatic recognition of Kannada and Marathi languages.

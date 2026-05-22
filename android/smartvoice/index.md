@@ -33,7 +33,7 @@ automatically, but only a certain subset. For the moment it includes:
 - Hindi,
 - Bengali,
 - Tamil,
-- Telugu
+- Telugu,
 - Kannada,
 - Marathi.
 
@@ -75,8 +75,9 @@ Application interface is available in
 - Russian,
 - Ukrainian,
 - Tatar,
-- Belarusian
-- Bulgarian.
+- Belarusian,
+- Bulgarian,
+- Thai,
 
 By the way, I'd like to thank translators:
 
@@ -93,6 +94,7 @@ By the way, I'd like to thank translators:
 - **TheSingleAlgerianPotato** for Arabic,
 - **UnseenLight** for Tatar,
 - **Trunars** for Bulgarian,
+- **Surapong** for Thai,
 - **Hakuchi** for various translations fixes,
 - **Guillermo Eduardo Charcahuana López** for the help in Spanish.
 
