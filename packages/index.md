@@ -10,8 +10,8 @@ to use [Emacspeak](https://github.com/tvraman/emacspeak) environment
 with multilingual speech support. It includes up to date version of
 Emacspeak itself additionally enhanced and fixed by me,
 [multilingual speech server](https://github.com/poretsky/multispeech)
-that supports Russian, English, German, French, Italian, Spanish and
-Portuguese languages and can automatically switch language on the fly
+that supports English, French, German, Italian, Portuguese, Russian
+and Spanish languages and can automatically switch language on the fly
 by context, software speech synthesizers and some other more or less
 related stuff. Of course, here are only those packages that are not
 included in the official system distribution or are represented there
