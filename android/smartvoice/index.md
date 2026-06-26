@@ -15,6 +15,7 @@ of input text. In fact, not all supported languages can be recognized
 automatically, but only a certain subset. For the moment it includes:
 
 - Arabic,
+- Bengali,
 - Bulgarian,
 - Chinese,
 - Croatian,
@@ -23,19 +24,18 @@ automatically, but only a certain subset. For the moment it includes:
 - German,
 - Greek,
 - Hebrew,
+- Hindi,
 - Italian,
 - Japanese,
+- Kannada,
+- Marathi,
 - Polish,
 - Portuguese,
 - Russian,
 - Spanish,
-- Turkish,
-- Hindi,
-- Bengali,
 - Tamil,
 - Telugu,
-- Kannada,
-- Marathi.
+- Turkish.
 
 Besides that, this synthesizer allows one to adjust voices
 separately. So, such parameters as volume, speech rate and voice pitch
@@ -58,26 +58,26 @@ not used during a fairly long time or in case of resource deficiency.
 
 Application interface is available in
 
-- English,
-- Italian,
-- Spanish,
-- Chinese,
-- Portuguese (Brazilian and European variants),
-- German,
-- Croatian,
-- Czech,
-- Slovak,
-- Turkish,
-- Hungarian,
-- Polish,
-- Hebrew,
 - Arabic,
-- Russian,
-- Ukrainian,
-- Tatar,
 - Belarusian,
 - Bulgarian,
+- Chinese,
+- Croatian,
+- Czech,
+- English,
+- German,
+- Hebrew,
+- Hungarian,
+- Italian,
+- Polish,
+- Portuguese (Brazilian and European variants),
+- Russian,
+- Slovak,
+- Spanish,
+- Tatar,
 - Thai,
+- Turkish,
+- Ukrainian.
 
 By the way, I'd like to thank translators:
 
@@ -113,8 +113,8 @@ a separate step before anything can actually be spoken.
 
 At the contrary, SmartVoice can speak just after installation with no
 additional steps, because it has its own embedded voices, though
-only English (American and British accents), German, Spanish, French,
-Italian and Russian for the moment. For other languages SmartVoice can
+only English (American and British accents), French, German, Italian,
+Russian and Spanish for the moment. For other languages SmartVoice can
 use **Vocalizer Expressive v2** voices from
 [Nuance Communications, Inc.](http://www.nuance.com/),
 but it is not supported or even approved in any way by this company and,
