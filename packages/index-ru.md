@@ -24,6 +24,8 @@ locale: ru_RU
 
 ## Краткая инструкция
 
+### Для дистрибутивов на базе debian
+
 Интересующиеся репозиторием как таковым, скажем, для зеркалирования
 или просто из любопытства, приглашаются посетить соответствующий раздел
 [на Github](https://github.com/poretsky/ppa) или
@@ -74,6 +76,26 @@ $ sudo dpkg-reconfigure emacspeak
 поставляемую в составе пакетов.
 
 
+### Для дистрибутивов на базе ALT
+
+Пакет уже присутствует в основном репозитории [alt/sisyphus](https://packages.altlinux.org/ru/sisyphus/srpms/ru_emacspeak) и на стабильных ветках начиная с [p11](https://packages.altlinux.org/ru/p11/srpms/ru_emacspeak) под названием ru_emacspeak.
+
+Для установки необходимо актуализировать индексы и установить основной пакет, multispeech и прочие необходимые пакеты будут установлены по зависимостям.
+
+Действия с пакетами выполняются в контексте суперпользователя.
+
+```BASH
+# apt-get update
+# apt-get install ru_emacspeak
+```
+
+Дальше уже в контексте своего пользователя необходимо сконфигурировать ru_emacspeak:
+
+```BASH
+$ enable-emacspeak
+```
+
+
 ## Дополнительные конфигурационные файлы
 
 И, наконец, вот еще парочка конфигурационных файлов для пущего
@@ -82,3 +104,5 @@ $ sudo dpkg-reconfigure emacspeak
 - [80keybindings.el](files/80keybindings.el) -- [Клавиатурные комбинации](emacs-keybindings-ru.md)
   для ряда полезных функций Emacs
 - [80site-defaults.el](files/80site-defaults.el) -- [Общие настройки Emacs](emacs-settings-ru.md)
+
+В сборке для ALT эти конфигурационные файлы устанавливаются автоматически.
