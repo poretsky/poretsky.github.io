@@ -20,6 +20,8 @@ by an old or somewhat inconsistent version.
 
 ## Quick start
 
+### For Debian‑based distributions
+
 If you are interested in the repository itself for browsing or
 mirroring, get it [here](https://github.com/poretsky/ppa) or visit
 [my PPA on Launchpad](https://launchpad.net/~poretsky/+archive/ubuntu/a11y),
@@ -66,6 +68,26 @@ $ sudo dpkg-reconfigure emacspeak
 See documentation provided along with the packages.
 
 
+### For ALT‑based distributions
+
+The package is already available in the main repository [alt/sisyphus](https://packages.altlinux.org/en/sisyphus/srpms/ru_emacspeak) and in the stable branches starting from [p11](https://packages.altlinux.org/en/p11/srpms/ru_emacspeak), under the name `ru_emacspeak`.
+
+To install it, update the indices and install the main package; `multispeech` and other required packages will be installed automatically via dependencies.
+
+All package operations must be performed with superuser privileges.
+
+```BASH
+# apt-get update
+# apt-get install ru_emacspeak
+```
+
+Next, configure `ru_emacspeak` in the context of your user account.
+
+```BASH
+$ enable-emacspeak
+```
+
+
 ## Additional configuration files
 
 Additionally you may download these files and place them into
@@ -75,3 +97,5 @@ Additionally you may download these files and place them into
   for some useful Emacs functions
 - [80site-defaults.el](files/80site-defaults.el) -- Some convenient
   [Emacs settings](emacs-settings.md)
+
+In the ALT build, these configuration files are installed automatically.
