@@ -10,7 +10,7 @@ rss: feed.xml
 Release date: **{{ site.data.smartvoice.release_date }}**.
 
 The most prominent feature of this synthesizer is its capability to
-distinguish and switch language automatically according to the nature
+detect and switch language automatically according to the nature
 of input text. In fact, not all supported languages can be recognized
 automatically, but only a certain subset. For the moment it includes:
 
@@ -35,7 +35,8 @@ automatically, but only a certain subset. For the moment it includes:
 - Spanish,
 - Tamil,
 - Telugu,
-- Turkish.
+- Turkish,
+- Ukrainian.
 
 Besides that, this synthesizer allows one to adjust voices
 separately. So, such parameters as volume, speech rate and voice pitch
@@ -98,10 +99,6 @@ By the way, I'd like to thank translators:
 - **Hakuchi** for various translations fixes,
 - **Guillermo Eduardo Charcahuana López** for the help in Spanish.
 
-Those who want to correct some translations or add new ones are
-welcome to the
-[translations page](https://github.com/poretsky/SmartVoice-translations).
-
 For the most part this product is intended for the visually impaired
 people who are forced to use speech feedback as a primary
 interface. Android accessibility service in its current state does
@@ -114,23 +111,21 @@ a separate step before anything can actually be spoken.
 At the contrary, SmartVoice can speak just after installation with no
 additional steps, because it has its own embedded voices, though
 only English (American and British accents), French, German, Italian,
-Russian and Spanish for the moment. For other languages SmartVoice can
-use **Vocalizer Expressive v2** voices from
-[Nuance Communications, Inc.](http://www.nuance.com/),
-but it is not supported or even approved in any way by this company and,
-of course, _does not include_ these voices itself. I suggest that the
-voices should be purchased somehow from the official owner. Anyway, it
-is not my business. The only intention of mine is to provide so
-desperately desired functionality to whom it may concern.
+Russian and Spanish for the moment. But, being a TTS engines
+aggregator, for other languages SmartVoice can utilize other
+synthesizers and voices available on the device.
 
 {% capture apk_file %}SmartVoice-{{ site.data.smartvoice.version }}.apk{% endcapture %}
+{% capture assets_url %}{{ site.data.smartvoice.assets }}{{ site.data.smartvoice.version }}{% endcapture %}
 
-So, grab the package
-{% include download.md file=apk_file url=site.data.download.android %}
+This application is open source. So, welcome to the
+[project page](https://github.com/poretsky/SmartVoice5) or
+grab the package
+{% include download.md file=apk_file url=assets_url %}
 if you like, install it and use at your own risk.
 Of course, no warranties.
 
-[Android 4.4](https://www.android.com/versions/kit-kat-4-4/)
+[Android 7.0](https://en.wikipedia.org/wiki/Android_Nougat)
 or later is required.
 
 ----
