@@ -14,7 +14,7 @@ detect and switch language automatically according to the nature
 of input text. In fact, not all supported languages can be recognized
 automatically, but only a certain subset. For the moment it includes:
 
-- Arabic,
+- Arabic [^1],
 - Bengali,
 - Bulgarian,
 - Chinese,
@@ -156,10 +156,10 @@ traversed downwards from top to bottom, thus, the languages placed
 upper in the list have more chances to be used. It is also taken in
 account in the lingual markup process.
 
-Such languages as Arabic and Hebrew use their own character sets
+Some languages like Greek or Hebrew use their own character sets
 (alphabets) by wich they can be easily recognized. The others are
 subdivided into groups by character set community. SmartVoice
-distinguishes three such groups: Latinic, Cyrillic and CJK
+distinguishes four such groups: Latinic, Arabic, Cyrillic and CJK
 ideography. It is possible to choose fallback voice for each of them
 that will be used when no particular language has been detected, but
 only the alphabet group.
@@ -228,3 +228,11 @@ explicit voice selection is in use.
 Feel free to e-mail me with all related questions and suggestions.
 
 {% include feedback.html name=site.data.author.name.en %}
+
+----
+
+[^1]: Actually, only the alphabet group is recognized, not a
+      particular language within it. The language itself is not listed
+      as recognizable, but the desired effect can be achieved by
+      choosing preferred voice for the alphabet group in the voices
+      assignment section.
