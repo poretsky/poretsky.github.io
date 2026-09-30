@@ -23,6 +23,10 @@ of this work can be found in the respective branches:
   Ubuntu 20.04 package
 - [jammy](https://github.com/poretsky/emacspeak/tree/jammy) --
   Ubuntu 22.04 package
+- [noble](https://github.com/poretsky/emacspeak/tree/noble) --
+  Ubuntu 24.04 package
+- [resolute](https://github.com/poretsky/emacspeak/tree/resolute) --
+  Ubuntu 26.04 package
 - [stretch](https://github.com/poretsky/emacspeak/tree/stretch) --
   Debian 9 package
 - [buster](https://github.com/poretsky/emacspeak/tree/buster) --
@@ -49,8 +53,7 @@ facilitation by providing stress information.
 [FreeSpeech](https://github.com/poretsky/freespeech) -- English text
 to phoneme converter and pronunciation dictionary that being used
 along with **MBROLA** speech synthesizer forms full TTS conversion for
-English language. Originates from the archive found at
-[http://tcts.fpms.ac.be/synthesis/mbrola/tts/English/fs.a10m.tar.gz](http://tcts.fpms.ac.be/synthesis/mbrola/tts/English/fs.a10m.tar.gz)
+English language.
 
 [Youtube-dl-el](https://github.com/poretsky/youtube-dl-emacs) -- Emacs
 interface for **Youtube**. Originally forked from
@@ -69,9 +72,8 @@ GitHub CLI extension for subscription management.
 [TuningFork](https://github.com/poretsky/TuningFork) -- Simple Android
 application producing an audible reference tone.
 
-[SmartVoice-translations](https://github.com/poretsky/SmartVoice-translations) --
-Translatable resource of the [SmartVoice](android/smartvoice/index.md)
-speech synthesizer which is not opensource itself.
+[SmartVoice](https://github.com/poretsky/SmartVoice5) -- Multilingual
+speech synthesizer for Android.
 
 Of course, this list is not exhaustive, but those who are curious
 about other my projects, are welcome to

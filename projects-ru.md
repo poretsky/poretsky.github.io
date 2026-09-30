@@ -24,6 +24,10 @@ locale: ru_RU
   Пакет для Ubuntu 20.04
 - [jammy](https://github.com/poretsky/emacspeak/tree/jammy) --
   Пакет для Ubuntu 22.04
+- [noble](https://github.com/poretsky/emacspeak/tree/noble) --
+  Пакет для Ubuntu 24.04
+- [resolute](https://github.com/poretsky/emacspeak/tree/resolute) --
+  Пакет для Ubuntu 26.04
 - [stretch](https://github.com/poretsky/emacspeak/tree/stretch) --
   Пакет для Debian 9
 - [buster](https://github.com/poretsky/emacspeak/tree/buster) --
@@ -51,9 +55,7 @@ locale: ru_RU
 [FreeSpeech](https://github.com/poretsky/freespeech) --
 Преобразователь английского текста в фонетическую
 транскрипцию. Предназначен для совместного использования с
-синтезатором **MBROLA**. Проект вырос из архива, когда-то давным-давно
-найденного на
-[http://tcts.fpms.ac.be/synthesis/mbrola/tts/English/fs.a10m.tar.gz](http://tcts.fpms.ac.be/synthesis/mbrola/tts/English/fs.a10m.tar.gz)
+синтезатором **MBROLA**.
 
 [Youtube-dl-el](https://github.com/poretsky/youtube-dl-emacs) --
 Emacs-интерфейс для **Youtube**. Проект отпочковался от
@@ -73,10 +75,8 @@ Emacs-интерфейс для SIP-клиента
 [TuningFork](https://github.com/poretsky/TuningFork) -- Простое
 приложение для Android, генерирующее звуки эталонной высоты.
 
-[SmartVoice-translations](https://github.com/poretsky/SmartVoice-translations) --
-Подлежащий переводу ресурс синтезатора речи
-[SmartVoice](android/smartvoice/index-ru.md), который сам по себе не
-входит в число открытых проектов.
+[SmartVoice](https://github.com/poretsky/SmartVoice5) -- Многоязычный
+синтезатор речи для Android.
 
 Представленный список не является исчерпывающим. Тех же, кто
 интересуется прочими моими проектами, приглашаю непосредственно на
