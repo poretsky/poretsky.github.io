@@ -129,6 +129,10 @@ SmartVoice же готов к работе сразу после установ�
 {% include download.md file=apk_file url=assets_url %}
 на свой страх и риск. Разумеется, никаких гарантий.
 
+Или, еще лучше, установите его с
+[F-Droid](https://f-droid.org/ru/packages/tts.smartvoice/),
+что обеспечит автоматические обновления и большую безопасность.
+
 Для работы приложения необходим
 [Android 7.0](https://ru.wikipedia.org/wiki/Android_Nougat)
 или более поздней версии.

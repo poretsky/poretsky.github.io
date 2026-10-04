@@ -125,6 +125,10 @@ grab the package
 if you like, install it and use at your own risk.
 Of course, no warranties.
 
+Or preferably install it from
+[F-Droid](https://f-droid.org/en/packages/tts.smartvoice/)
+and get automatic updates and additional security.
+
 [Android 7.0](https://en.wikipedia.org/wiki/Android_Nougat)
 or later is required.
 
