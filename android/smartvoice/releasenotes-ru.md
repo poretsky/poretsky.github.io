@@ -1,5 +1,5 @@
 ---
-title: Что нового в версиях 4.x.x
+title: Что нового в версиях 5.x.x
 language: ru
 locale: ru_RU
 ---
