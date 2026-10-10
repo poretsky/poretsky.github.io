@@ -4,6 +4,13 @@ language: en
 ---
 
 
+## Version 5.1.0
+
+* Search functionality in the quick voice switch screen
+* Russian robot voice pronunciation dictionary update
+* Emoji dictionary update
+
+
 ## Version 5.0.1
 
 Reproducible build fix for f-droid compatibility.
