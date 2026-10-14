@@ -4,6 +4,16 @@ language: en
 ---
 
 
+## Version 5.1.2
+
+* F-Droid compliance fix
+
+
+## Version 5.1.1
+
+* Sorting fix in the voices settings screen
+
+
 ## Version 5.1.0
 
 * Search functionality in the quick voice switch screen
